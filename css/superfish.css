@@ -578,7 +578,8 @@ body {
 	cursor          : pointer;
 	transition      : 0.2s;
 	margin          : auto;
-	width           : 280px;
+	width: 267px;
+    height: 260px;
 }
 
 .grid-item:hover {
@@ -610,7 +611,7 @@ body {
 .card-text {
 	font-size     : 1.6rem;
 	letter-spacing: 0.1rem;
-	line-height   : 1.7;
+	line-height   : 1;
 	color         : white;
 	margin-bottom : 2.5rem;
 }

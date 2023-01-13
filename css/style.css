@@ -2246,8 +2246,8 @@ ul#projects-carousel {
 
 .post-body {
     padding      : 4px;
-    background   : url("../img/bg_off.png") repeat;
-    border       : 1px solid #DDDDDD;
+    /* background   : url("../img/bg_off.png") repeat;
+    border       : 1px solid #DDDDDD; */
     border-radius: 3px;
 }
 

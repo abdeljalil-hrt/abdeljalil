@@ -114,7 +114,10 @@ nav.menu {
 }
 
 .menu ul>li>a {
-    padding: 34px 18px 31px 18px;
+    padding: 10px 10px 10px 10px;
+    margin: 24px 10px 10px 10px;
+    color: black;
+    font-size: larger;
 }
 
 }

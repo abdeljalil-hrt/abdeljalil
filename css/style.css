@@ -329,6 +329,7 @@ h2.title {
     background-position: 50%;
     padding            : 0;
     visibility         : hidden;
+    overflow: visible;
 }
 
 .tp-leftarrow.default,
@@ -354,6 +355,11 @@ h2.title {
     -khtml-opacity            : 0;
     -moz-opacity              : 0;
     visibility                : visible;
+    position: absolute;
+    top: 235px;
+    margin-top: -30px;
+    left: 0px;
+    opacity: 0;
 }
 
 .tp-leftarrow.default:before,
@@ -391,6 +397,11 @@ h2.title {
     -khtml-opacity           : 0;
     -moz-opacity             : 0;
     visibility               : visible;
+    position: absolute;
+    top: 235px;
+    margin-top: -30px;
+    right: 0px;
+    opacity: 0;
 }
 
 .tp-rightarrow.default:before,
@@ -605,6 +616,11 @@ h2.title {
 
 .post-content {
     padding-bottom: 10px;
+}
+
+.post-content p{
+    text-align: center;
+    margin: 25px;
 }
 
 .blog-small article .post-image {
@@ -981,6 +997,7 @@ ol.commentlist li:first-child {
 .slogan-title {
     display: inline-block;
     margin : 10px 0;
+    text-align: center;
 }
 
 .page-services .slogan-content {
@@ -1385,6 +1402,16 @@ ul.graph-container {
     border-left      : none;
     border-bottom    : 0;
     z-index          : 1;
+}
+
+.text-blockCenter{
+    margin-bottom: 30px;
+}
+
+.text-blockCenter h4{
+    text-align: center;
+    width: 70%;
+    margin: auto;
 }
 
 
@@ -2679,4 +2706,9 @@ div.content-box div.content-box-icon:hover i,
 .panel-group .panel,
 .accordionMod .accordion-group {
     margin-bottom: 15px;
+}
+
+
+#revslider-367{
+    height: 570px;
 }

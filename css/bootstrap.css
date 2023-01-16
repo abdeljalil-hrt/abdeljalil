@@ -5689,3 +5689,20 @@ td.visible-print {
     display: none !important;
   }
 }
+
+
+.row .contain{
+	text-align: center;
+    margin-top: 32px;
+    font-size: xx-large;
+    color: black;
+}
+
+.row .contain i{
+	color: red;
+}
+
+.row .contain i span{
+	color: gray;
+}
+
